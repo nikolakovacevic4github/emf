@@ -8,8 +8,8 @@
     </parent>
     <artifactId>ms2emf-backend</artifactId>
     <packaging>jar</packaging>
-    <name>“Serbian - Backend Services</name>
-    <url>http://www.geo-solutions.it</url>
+    <name>Serbian EMF analysis - Backend Services</name>
+    <url>http://emf.mslabs.in.rs</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
