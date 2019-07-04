@@ -10,7 +10,7 @@
             classpath*:applicationContext.xml
         </param-value>
 	</context-param>
-    <display-name>“Serbian - Web App</display-name>
+    <display-name>EMF measurements - Web App</display-name>
 	<context-param>
         <param-name>webAppRootKey</param-name>
         <param-value>geostore.root</param-value>
