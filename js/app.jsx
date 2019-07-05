@@ -12,15 +12,15 @@ const ConfigUtils = require('@mapstore/utils/ConfigUtils');
  *
  * ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', './translations']);
  */
-ConfigUtils.setConfigProp('translationsPath', './MapStore2/web/client/translations');
+ConfigUtils.setConfigProp('translationsPath', './translations');
 ConfigUtils.setConfigProp('themePrefix', 'ms2emf');
 
 /**
  * Use a custom plugins configuration file with:
  *
- * ConfigUtils.setLocalConfigurationFile('localConfig.json');
+ * ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
  */
-ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
+ConfigUtils.setLocalConfigurationFile('localConfig.json');
 
 /**
  * Use a custom application configuration file with:
@@ -37,13 +37,13 @@ ConfigUtils.setLocalConfigurationFile('MapStore2/web/client/localConfig.json');
  *     }]
  * });
  */
-const appConfig = require('@mapstore/product/appConfig');
+const appConfig = require('appConfig');
 
 /**
  * Define a custom list of plugins with:
  *
- * const plugins = require('./plugins');
+ * const plugins = require('@mapstore/product/plugins');
  */
-const plugins = require('@mapstore/product/plugins');
+const plugins = require('./plugins');
 
 require('@mapstore/product/main')(appConfig, plugins);
