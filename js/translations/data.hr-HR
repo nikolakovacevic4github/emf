@@ -145,12 +145,12 @@
         "help": "Pomoć",
         "docs": "Dokumentacija",
         "gohome": "Početna stranica",
-        "back": "Natrag na uvoz podataka",
+        "back": "Nazad na uvoz podataka",
         "printbutton": "Ispis",
         "annotationsbutton": "Pribeleške",
         "noresultfound": "Nije pronađen nijedan rezultat",
-        "save": "Spremi",
-        "saveAs": "Spremi kao...",
+        "save": "Sačuvaj",
+        "saveAs": "Sačuvaj kao...",
         "opacity": "Prozirnost",
         "elevation": "Nadmorska visina",
         "close": "Zatvori",
@@ -318,8 +318,8 @@
             "description": "Opis",
             "namePlaceholder": "Ime karte",
             "descriptionPlaceholder": "Opis karte",
-            "saveTitle": "Spremi kartu",
-            "saveText": "Spremi trenutnu kartu?",
+            "saveTitle": "Sačuvaj kartu",
+            "saveText": "Sačuvaj trenutnu kartu?",
             "thumbnail": "Sličica",
             "message": "Prebacite ili kliknite za uvoz slike",
             "suggestion": "(najbolje 300px X 180px, maksimalno 500kb)",
@@ -352,8 +352,8 @@
                 "title": "Grupe za dozvole"
             },
             "details": {
-                "back": "Natrag",
-                "save": "Spremi",
+                "back": "Nazad",
+                "save": "Sačuvaj",
                 "show": "Prikaži ploču sa detaljima",
                 "add": "Dodaj novi detalj",
                 "edit": "Izmijeni detalj",
@@ -570,7 +570,7 @@
             "addbtn": "Dodaj",
             "nextbtn": "Sledeći",
             "prevbtn": "Nazad",
-            "savebtn": "Spremi/Ažuriraj",
+            "savebtn": "Sačuvaj/Ažuriraj",
             "cancelbtn": "Odustani",
             "confirmremove": "Izbriši?",
             "cancelconfirm": "Jeste li sigurni?",
@@ -675,8 +675,8 @@
                 "toolbar": {
                     "actions": {
                         "save": {
-                            "title": "Spremi promjene.",
-                            "text": "Spremi"
+                            "title": "Sačuvaj promjene.",
+                            "text": "Sačuvaj"
                         },
                         "cancel": {
                             "title": "Završi uređivanje, odustani od svih promjena.",
@@ -805,8 +805,8 @@
                     "details_bbox_label": "Uredi koordinate za izmenu područja",
                     "details_circle_label": "Uredi numeričko polje za prilagodbu promjera i središta kružnice",
                     "reset_bbox": "Poništi",
-                    "save_bbox": "Spremi izmenu graničnog okvira",
-                    "save_radius": "Spremi izmenu promjera/središta",
+                    "save_bbox": "Sačuvaj izmenu graničnog okvira",
+                    "save_radius": "Sačuvaj izmenu promjera/središta",
                     "radius": "Promjer"
                 },
                 "methods": {
@@ -871,9 +871,9 @@
             "errorLoadingSymbols": "There was a problem loading the symbol list. Please, contact the administrator in order to check the configuration options",
             "edit": "Uredi",
             "remove": "Izbriši",
-            "save": "Spremi",
+            "save": "Sačuvaj",
             "cancel": "Odustani",
-            "back": "Natrag",
+            "back": "Nazad",
             "applyStyle": "Apply Style",
             "addMarker": "Dodaj novu tačku na karti",
             "styleGeometry": "Odaberi različiti stil za tačke",
@@ -953,7 +953,7 @@
             "enabled": "Omogućen",
             "groupTitle": "Grupe:",
             "roleTitle": "Rola",
-            "saveUser": "Spremi",
+            "saveUser": "Sačuvaj",
             "savingUser": "Spremanje...",
             "userSaved": "Spremljeno!",
             "createUser": "Kreiraj",
@@ -981,7 +981,7 @@
           "noDescriptionAvailable": "(Nema opisa)",
           "groupName": "Ime grupe",
           "groupDescription": "Opis",
-          "saveGroup": "Spremi",
+          "saveGroup": "Sačuvaj",
           "createGroup": "Kreiraj",
           "creatingGroup": "Kreirana...",
           "groupMembers": "Članovi:",
@@ -1013,15 +1013,15 @@
         },
         "snapshot": {
             "title": "Pregled snimke",
-            "save": "Spremi",
-            "tooltip": "Spremi snimku karte.",
+            "save": "Sačuvaj",
+            "tooltip": "Sačuvaj snimku karte.",
             "googleBingError": "Google i Bing slojevi nisu dostupni za snimku, zbog ograničenja uvjetovanih autorskim pravima.",
             "downloadingSnapshots": "izrada snimke je u tijeku",
             "date": "Datum",
             "layers": "Slojevi",
             "size": "Veličina",
             "notsupported": "Snimka nije podržana",
-            "taintedMessage": "Funkcionalnost spremanja snimke je ograničena zbog neke od sigurnosnih postavki preglednika. Pokušajte kliknuti desnim klikom na pregled i odaberite 'Spremi sliku kao' (podržano u Firefox i Chrome)."
+            "taintedMessage": "Funkcionalnost spremanja snimke je ograničena zbog neke od sigurnosnih postavki preglednika. Pokušajte kliknuti desnim klikom na pregled i odaberite 'Sačuvaj sliku kao' (podržano u Firefox i Chrome)."
         },
         "shapefile": {
             "title": "Dodaj lokalnu datoteku",
@@ -1244,7 +1244,7 @@
             "export": "Izvoz",
             "selectall": "Odaberi sve",
             "deselectall": "Očisti odabir",
-            "backtosearch": "Natrag na pretragu",
+            "backtosearch": "Nazad na pretragu",
             "resultInfo": "{total, plural, =0 {Niti jedan objekt} =1 {{total} objekata {total}} other {{start}-{end} od {total}}}",
             "resultInfoVirtual": "{total, plural, =0 {No items} =1 {{total} Item of {total}} other {{total} Items}}",
             "pageInfo": "{totalPages, plural, =0 {Niti jedna stranica} =1 {Stranica {totalPages} od {totalPages}} other {Stranica {page} od {totalPages}}}",
@@ -1293,7 +1293,7 @@
                 "stopDrawGeom": "Odustani od stvaranja geometrije",
                 "addGeom": "Dodaj geometriju postojećem objektu",
                 "deleteSelectedFeatures": "Izbriši odabrane objekte",
-                "saveChanges": "Spremi promjene",
+                "saveChanges": "Sačuvaj promjene",
                 "saving": "Spremanje...",
                 "cancelChanges": "Poništi promjene",
                 "deleteGeometry": "Izbriši geometriju",
@@ -1372,18 +1372,18 @@
                     "title": "Widget"
                 },
                 "wizard": {
-                    "backToTypeSelection": "Natrag na odabir tipa",
-                    "backToWidgetTypeSelection": "Natrag na odabir tipa widgeta",
-                    "backToFeatureGrid": "Natrag na tablicu atributa",
-                    "backToLayerSelection": "Natrag na odabir slojeva",
-                    "backToMapSelection": "Natrag na odabir karte",
-                    "backToPreview": "Natrag na pregled",
-                    "backToChartOptions": "Natrag na postavke grafikona",
+                    "backToTypeSelection": "Nazad na odabir tipa",
+                    "backToWidgetTypeSelection": "Nazad na odabir tipa widgeta",
+                    "backToFeatureGrid": "Nazad na tablicu atributa",
+                    "backToLayerSelection": "Nazad na odabir slojeva",
+                    "backToMapSelection": "Nazad na odabir karte",
+                    "backToPreview": "Nazad na pregled",
+                    "backToChartOptions": "Nazad na postavke grafikona",
                     "selectALayer": "Odaberi sloj",
                     "selectAMap": "Odaberi kartu",
                     "configureChartOptions": "Prilagodi postavke grafikona",
                     "configureWidgetOptions": "Prilagodi postavke widgeta",
-                    "backToTableOptions": "Natrag na postavke tabele",
+                    "backToTableOptions": "Nazad na postavke tabele",
                     "configureTableOptions": "Prilagodi postavke tabele",
                     "resetColumnsSizes": "Poništi sve promjene širine kolona",
                     "updateWidget": "Ažuriraj widget",
@@ -1557,7 +1557,7 @@
                 "resourceAlreadyExists": "Resurs sa ovim imenom već postoji. Pokušajte '{data}'"
             },
             "editor": {
-                "save": "Spremi kontrolnu ploču",
+                "save": "Sačuvaj kontrolnu ploču",
                 "addACardToTheDashboard": "Dodaj widget na kontrolnu ploču",
                 "showConnections": "Prikaži veze",
                 "hideConnections": "Sakrij veze"
@@ -1565,8 +1565,8 @@
             "emptyTitle": "Ploča je prazna"
         },
         "wizard": {
-            "next": "Naprijed",
-            "prev": "Natrag",
+            "next": "Napred",
+            "prev": "Nazad",
             "finish": "Završi"
         },
         "vectorstyler": {
@@ -1740,7 +1740,7 @@
                 "addAfT": "Dodaj novo pravilo iza odabranoga",
                 "deleteT": "Ukloni odabrano pravilo",
                 "cacheT": "Očisti predmemoriju",
-                "save": "Spremi trenutno pravilo",
+                "save": "Sačuvaj trenutno pravilo",
                 "close": "Izađi iz kreiranja pravila"
             },
             "navItems": {
@@ -1770,7 +1770,7 @@
             "newModal": "Novo pravilo",
             "editModal": "Dodaj pravilo",
             "newButton": "Stvori",
-            "editButton": "Spremi",
+            "editButton": "Sačuvaj",
             "close": "Zatvori",
             "previous": "prethodno",
             "next": "slijedeće",
@@ -1800,8 +1800,8 @@
         },
         "tutorial": {
             "title": "Tutorijal",
-            "back": "Natrag",
-            "next": "Naprijed",
+            "back": "Nazad",
+            "next": "Napred",
             "close": "Zatvori",
             "skip": "Preskoči",
             "last": "Završi",
@@ -1909,7 +1909,7 @@
             },
             "dashboardAddChart": {
                 "title": "Grafikon",
-                "text": "<p>Ovo je widget koji prikazuje i agregira podatke u grafikon pita, linijske ili stupčane grafikone.</p><p>Koraci:</p><p><ul><li>Odaberi vektorski sloj</li><li>Odaberi tip grafikona</li><li>Prilagodi podatke grafikona</li><li>Spremi i dodaj na ploču</li></ul></p>"
+                "text": "<p>Ovo je widget koji prikazuje i agregira podatke u grafikon pita, linijske ili stupčane grafikone.</p><p>Koraci:</p><p><ul><li>Odaberi vektorski sloj</li><li>Odaberi tip grafikona</li><li>Prilagodi podatke grafikona</li><li>Sačuvaj i dodaj na ploču</li></ul></p>"
             },
             "dashboardAddText": {
                 "title": "Tekst",
@@ -1917,15 +1917,15 @@
             },
             "dashboardAddTable": {
                 "title": "Tablica",
-                "text": "<p>Dodaj atributnu tabelu koja sadrži podatke odabranoga vektorskog sloja na ploču. Također, možete filtrirati podatke kako bi prilagodili tablicu.</p><p>Koraci:</p><p><ul><li>Odaberi vektorski sloj</li><li>Prilagodi podatke tablice</li><li>Spremi i dodaj na ploču</li></ul></p>"
+                "text": "<p>Dodaj atributnu tabelu koja sadrži podatke odabranoga vektorskog sloja na ploču. Također, možete filtrirati podatke kako bi prilagodili tablicu.</p><p>Koraci:</p><p><ul><li>Odaberi vektorski sloj</li><li>Prilagodi podatke tablice</li><li>Sačuvaj i dodaj na ploču</li></ul></p>"
             },
             "dashboardAddCounter": {
                 "title": "Brojač",
-                "text": "<p>Dodaj novi brojač na ploču. Brojač će prikazivati agregirane brojčane vrijednosti iz odabranoga vektorskog sloja.</p><p>Koraci:</p><p><ul><li>Odaberi vektorski sloj</li><li>Prilagodi podatke brojača</li><li>Spremi i dodaj na ploču</li></ul></p>"
+                "text": "<p>Dodaj novi brojač na ploču. Brojač će prikazivati agregirane brojčane vrijednosti iz odabranoga vektorskog sloja.</p><p>Koraci:</p><p><ul><li>Odaberi vektorski sloj</li><li>Prilagodi podatke brojača</li><li>Sačuvaj i dodaj na ploču</li></ul></p>"
             },
             "dashboardAddMap": {
                 "title": "Karta",
-                "text": "<p>Dodaj novu interaktivnu kartu na ploču. Možete dodati više od jedne karte sa mogućnošću povezivanja sa ostalim widgetima. Nakon spremanja prve karte, widget legende će biti pridodan listi. Legenda će prikazivati podatke povezane sa prikazanom kartom.</p><p>Koraci:</p><p><ul><li>Odaberi kartu</li><li>Poboljšaj kartu dodavanjem novih slojeva</li><li>Spremi i dodaj na ploču</li></ul></p>"
+                "text": "<p>Dodaj novu interaktivnu kartu na ploču. Možete dodati više od jedne karte sa mogućnošću povezivanja sa ostalim widgetima. Nakon spremanja prve karte, widget legende će biti pridodan listi. Legenda će prikazivati podatke povezane sa prikazanom kartom.</p><p>Koraci:</p><p><ul><li>Odaberi kartu</li><li>Poboljšaj kartu dodavanjem novih slojeva</li><li>Sačuvaj i dodaj na ploču</li></ul></p>"
             }
         }
     }

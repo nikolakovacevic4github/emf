@@ -1,7 +1,7 @@
 {
     "name": "ms2emf",
     "version": "0.3.0",
-    "description": "Serbian EMF analysis",
+    "description": "Analiza EMF Srbije",
     "repository": "EMF",
     "main": "index.js",
     "devDependencies": {

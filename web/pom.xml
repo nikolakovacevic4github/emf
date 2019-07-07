@@ -8,7 +8,7 @@
   </parent>
   <artifactId>ms2emf-web</artifactId>
   <packaging>war</packaging>
-  <name>“Serbian - WAR</name>
+  <name>Analiza EMF Srbije - WAR</name>
   <url>EMF</url>
 
   <properties>
