@@ -12,7 +12,7 @@ const ConfigUtils = require('@mapstore/utils/ConfigUtils');
  *
  * ConfigUtils.setConfigProp('translationsPath', ['./MapStore2/web/client/translations', './translations']);
  */
-ConfigUtils.setConfigProp('translationsPath', './js/translations');
+ConfigUtils.setConfigProp('translationsPath', './translations');
 ConfigUtils.setConfigProp('themePrefix', 'ms2emf');
 
 /**

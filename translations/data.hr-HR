@@ -363,8 +363,8 @@
                 "showPreview": "Prikaži pregled",
                 "hidePreview": "Sakrij pregled",
                 "delete": "Izbriši ploču detalja",
-                "titleUnsavedChanges": "Jeste li sigurni da želite zatvoriti bez spremanja promjena?",
-                "sureToClose": "Jeste li sigurni da želite zatvoriti bez spremanja promjena?",
+                "titleUnsavedChanges": "Jeste li sigurni da želite zatvoriti bez spremanja promena?",
+                "sureToClose": "Jeste li sigurni da želite zatvoriti bez spremanja promena?",
                 "fieldsChanged": "Neka polja su izmijenjena"
             },
             "errors": {
@@ -491,12 +491,12 @@
                 "legend": "Uključi kazalo",
                 "2pages": "Kazalo na zasebnoj stranici",
                 "landscape": "Vodoravno",
-                "portrait": "Okomito"
+                "portrait": "Uspravno"
             },
             "legend": {
                 "font": "Konfiguracija oznaka:",
                 "forceLabels": "Forsiraj oznake:",
-                "antiAliasing": "Uklanjanje oštrih rubova slova:",
+                "antiAliasing": "Uklanjanje oštrih ivica slova:",
                 "iconsSize": "Veličina fonta:",
                 "dpi": "Dpi:"
             },
@@ -523,12 +523,12 @@
         "identifyRevGeocodeError": "Nemoguće geokodirati",
         "getFeatureInfoError": {
             "title": "Ups! Nešto je pošlo po zlu",
-            "text": "Došlo je do greške tijekom ovoga <b>GetFeatureInfo</b> upita"
+            "text": "Došlo je do greške tokom ovoga <b>GetFeatureInfo</b> upita"
         },
         "noFeatureInfo": "Nema dostupnih informacija za tačku koju ste kliknuli",
-        "noInfoForLayers": "Nema objekata u slijedećim slojevima: ",
+        "noInfoForLayers": "Nema objekata u sledećim slojevima: ",
         "history":{
-            "barLabel": "Povijest karte",
+            "barLabel": "Istorija karte",
             "undoBtnTooltip": "Idi nazad",
             "redoBtnTooltip": "Idi naprijed"
         },
@@ -587,7 +587,7 @@
             "s_wfs_opt_props_label" : "Dodatna svojstva",
             "s_result_props_label": "Svojstva prikaza rezultata",
             "s_priority_info": "Koristi se za sortiranje rezultata pretrage, veće vrijednosti prvo. Nominatim razultati imaju prednost = 5",
-            "serviceslistempty": "Nije definiran niti jedan servis"
+            "serviceslistempty": "Nije definisan niti jedan servis"
         },
         "draw": {
             "fill": "Fill",
@@ -629,7 +629,7 @@
                         "polyline": "Nacrtaj poliliniju",
                         "polygon": "Nacrtaj poligon",
                         "rectangle": "Nacrtaj pravokutnik",
-                        "circle": "ncrtaj kružnicu",
+                        "circle": "Nacrtaj kružnicu",
                         "marker": "Nacrtaj marker"
                     }
                 },
@@ -661,7 +661,7 @@
                     },
                     "rectangle": {
                         "tooltip": {
-                            "start": "Klikni i povuci za crtanje pravokutnika."
+                            "start": "Klikni i povuci za crtanje pravougaonika."
                         }
                     },
                     "simpleshape": {
@@ -675,11 +675,11 @@
                 "toolbar": {
                     "actions": {
                         "save": {
-                            "title": "Sačuvaj promjene.",
+                            "title": "Sačuvaj promene.",
                             "text": "Sačuvaj"
                         },
                         "cancel": {
-                            "title": "Završi uređivanje, odustani od svih promjena.",
+                            "title": "Završi uređivanje, odustani od svih promena.",
                             "text": "Odustani"
                         }
                     },
@@ -694,7 +694,7 @@
                     "edit": {
                         "tooltip": {
                             "text": "Povucite ručke ili marker za uređivanje objekta.",
-                            "subtext": "Kliknite na odustani za poništavanje promjena."
+                            "subtext": "Kliknite na odustani za poništavanje promena."
                         }
                     },
                     "remove": {
@@ -732,7 +732,7 @@
             "settingsPanel": "Ovo je pomoć za kontrolu postavki",
             "gohome": "Ovo je pomoć za kontrolu početne stranice",
             "measureComponent": "Ovo je pomoć za kontrolu merenja",
-            "backgroundSwitcher": "Ovo je pomoć za kontrolu promjene podloga",
+            "backgroundSwitcher": "Ovo je pomoć za kontrolu promene podloga",
             "layerSwitcher": "Ovo je pomoć za kontrolu prekidača za slojeve",
             "infoButton": "Ovo je pomoć za kontrolu dohvata informacija",
             "locateBtn": "Ovo je pomoć za kontrolu lokacije",
@@ -1262,7 +1262,7 @@
             "yesButton": "Da",
             "noButton": "Ne",
             "deleteButton": "Izbriši",
-            "clear": "Želite li zaista zanemariti sve promjene učinjene dosada?",
+            "clear": "Želite li zaista zanemariti sve promene učinjene dosada?",
             "featureClose": "Želite li zaista zatvoriti tablicu objekata?",
             "delete": "Želite li potvrditi brisanje {count} objekata?",
             "missingGeometry": "Nedostaje geometrija",
@@ -1293,9 +1293,9 @@
                 "stopDrawGeom": "Odustani od stvaranja geometrije",
                 "addGeom": "Dodaj geometriju postojećem objektu",
                 "deleteSelectedFeatures": "Izbriši odabrane objekte",
-                "saveChanges": "Sačuvaj promjene",
+                "saveChanges": "Sačuvaj promene",
                 "saving": "Spremanje...",
-                "cancelChanges": "Poništi promjene",
+                "cancelChanges": "Poništi promene",
                 "deleteGeometry": "Izbriši geometriju",
                 "downloadGridData": "Preuzmi podatke iz tablice objekata",
                 "hideShowColumns": "Sakrij/prikaži kolone",
@@ -1385,7 +1385,7 @@
                     "configureWidgetOptions": "Prilagodi postavke widgeta",
                     "backToTableOptions": "Nazad na postavke tabele",
                     "configureTableOptions": "Prilagodi postavke tabele",
-                    "resetColumnsSizes": "Poništi sve promjene širine kolona",
+                    "resetColumnsSizes": "Poništi sve promene širine kolona",
                     "updateWidget": "Ažuriraj widget",
                     "addTheWidget": "Dodaj widget",
                     "titlePlaceholder": "Umetni naslov...",
