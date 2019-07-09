@@ -188,6 +188,7 @@ const TimelinePlugin = compose(
                 marginBottom: 35,
                 marginLeft: 100,
                 background: "transparent",
+                bottom:30,
                 ...style,
                 right: collapsed ? 'auto' : (style.right || 0)
             }}

@@ -146,7 +146,7 @@
         "docs": "Dokumentacija",
         "gohome": "Početna stranica",
         "back": "Nazad na uvoz podataka",
-        "printbutton": "Ispis",
+        "printbutton": "Štampa",
         "annotationsbutton": "Pribeleške",
         "noresultfound": "Nije pronađen nijedan rezultat",
         "save": "Sačuvaj",
@@ -221,7 +221,7 @@
                     "html":"<h3>Uređivač objekata</h3><p>Primeri prilagođenja</p>"
                 },
                 "print":{
-                    "html":"<h3>Ispis</h3><p>Primeri prilagođenja</p>"
+                    "html":"<h3>Štampa</h3><p>Primeri prilagođenja</p>"
                 },
                 "plugins":{
                     "html":"<h3>Pluginovi</h3><p>Izgradi vlastitu aplikaciju</p>"
@@ -384,7 +384,7 @@
         },
         "toc": {
             "toggleLayerVisibility": "Izmijeni vidljivost sloja",
-            "displayLegendAndTools": "Prikaži kazalo i alate",
+            "displayLegendAndTools": "Prikaži legendu i alate",
             "zoomToLayerExtent": "Prikaži puni opseg sloja",
             "addLayer": "Dodaj sloj",
             "toolZoomToLayerTooltip": "Prikaži puni opseg odabranoga sloja",
@@ -475,7 +475,7 @@
             }
         },
         "print":{
-            "paneltitle": "Ispis",
+            "paneltitle": "Štampa",
             "layout": "Raspored",
             "sheetsize": "Veličina lista:",
             "legendoptions": "Postavke kazala",
@@ -486,10 +486,10 @@
             "descriptionplaceholder": "Unesi opis...",
             "resolution": "Rezolucija:",
             "defaultBackground": "Koristi OSM kao podlogu",
-            "printtooltip": "Ispis",
+            "printtooltip": "Štampa",
             "alternatives": {
-                "legend": "Uključi kazalo",
-                "2pages": "Kazalo na zasebnoj stranici",
+                "legend": "Uključi legendu",
+                "2pages": "Legendu na zasebnoj stranici",
                 "landscape": "Vodoravno",
                 "portrait": "Uspravno"
             },
@@ -813,7 +813,7 @@
                     "zone": "Zona",
                     "viewport": "Početni prikaz",
                     "regions": "Regije",
-                    "box": "Pravokutnik",
+                    "box": "Pravougaonik",
                     "buffer": "Obrub",
                     "circle": "Kružnica",
                     "poly": "Poligon",
@@ -843,9 +843,9 @@
             "info": " Informacije o računu",
             "details": " Detalji korisnika",
             "noAttributesMessage": "Nema podataka vezanih uz vaš račun",
-            "changePwd": "Promijeni zaporku",
+            "changePwd": "Promijeni lozinku",
             "newPwd": "Nova lozinka",
-            "retypePwd": "Ponovno upiši zaporku",
+            "retypePwd": "Ponovno upiši lozinku",
             "passwordMinlenght": "Vaša lozinka mora imati najmanje {minSize} znakova",
             "passwordCheckFail": "Zaporke se ne podudaraju!",
             "passwordInvalid": "Neispravna lozinka",
@@ -857,7 +857,7 @@
             "signIn": "Prijava",
             "loginFail": "Pogreška prilikom prijave",
             "loginFailedStatusMessages": {
-                "usernamePwdInsert": "Molimo unesite korisničko ime i zaporku",
+                "usernamePwdInsert": "Molimo unesite korisničko ime i lozinku",
                 "usernamePwdIncorrect": "Korisničko ime ili lozinka nisu ispravni"
             },
             "detailsName": "Ime",
@@ -942,7 +942,7 @@
             }
         },
         "users": {
-            "title": "Upravljaj korisničkim računima",
+            "title": "Upravljaj korisničkim nalozima",
             "users": "Korisnici",
             "manageUsers": "Upravljaj korisnicima",
             "searchUsers": "Pretraži korisnike...",
