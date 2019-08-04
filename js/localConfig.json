@@ -9,7 +9,9 @@
           "http://cloudsdi.geo-solutions.it",
           "https://gs-stable.geo-solutions.it/geoserver",
           "https://gs-stable.geo-solutions.it:443/geoserver",
-          "https://emf.mslabs.in.rs:443/geoserver"          
+          "http://emf.mslabs.in.rs/geoserver" ,
+          "http://emf.mslabs.in.rs:8082/geoserver" ,
+          "https://emf.mslabs.in.rs:443/geoserver"        
         ]
     },
     "geoStoreUrl": "rest/geostore/",
@@ -66,22 +68,16 @@
             },
             "selectedService": "gs_stable_csw",
             "services": {
-              "gs_stable_csw": {
-                "url": "https://gs-stable.geo-solutions.it/geoserver/csw",
-                "type": "csw",
-                "title": "GeoSolutions GeoServer CSW",
-                "autoload": true
-              },
-              "gs_stable_wms": {
-                "url": "https://gs-stable.geo-solutions.it/geoserver/wms",
+                "gs_stable_wms": {
+                "url": "http://emf.mslabs.in.rs:8082/geoserver/ratel/ows",
                 "type": "wms",
-                "title": "GeoSolutions GeoServer WMS",
+                "title": "EMF GeoServer WMS",
                 "autoload": false
               },
               "gs_stable_wmts": {
-                "url": "https://gs-stable.geo-solutions.it/geoserver/gwc/service/wmts",
+                "url": "http://emf.mslabs.in.rs:8082/geoserver/gwc/service/wmts",
                 "type": "wmts",
-                "title": "GeoSolutions GeoServer WMTS",
+                "title": "EMF GeoServer WMTS",
                 "autoload": false
               }
             }

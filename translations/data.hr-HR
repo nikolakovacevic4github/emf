@@ -9,8 +9,8 @@
         "about_p0-0": "MapStore je framework za izgradnju web mapping aplikacija koristeći standardne mapping biblioteke kao što su",
         "about_p0-1": "i",
         "about_p1": "MapStore ima nekoliko oglednih aplikacija:",
-        "about_ul0_li0": "MapViewer je jednostavni preglednik predefiniranih karata (po izboru pohranjenih u bazi koristeći GeoStore)",
-        "about_ul0_li1": "MapPublisher je razvijen za jednostavno i intuitivno kreiranje, spremanje i deljenje karata i kombinacija podataka dobivenih odabirom sadržaja koji dolaze iz standardnih izvora kao što su Google Maps i OpenStreetMap ili putem servisa koje pružaju organizacije koristeći otvorene protokole kao što su OGC WMS, WFS, WMTS ili TMS itd. Za više informacija provjerite",
+        "about_ul0_li0": "MapViewer je jednostavni pregledač predefinisanih karata (po izboru pohranjenih u bazi koristeći GeoStore)",
+        "about_ul0_li1": "MapPublisher je razvijen za jednostavno i intuitivno kreiranje, spremanje i deljenje karata i kombinacija podataka dobijenih odabirom sadržaja koji dolaze iz standardnih izvora kao što su Google Maps i OpenStreetMap ili putem servisa koje pružaju organizacije koristeći otvorene protokole kao što su OGC WMS, WFS, WMTS ili TMS itd. Za više informacija proverite",
         "about_h20": "Licenca",
         "about_p3": "MapStore je slobodan softver otvorenoga koda, baziran je na OpenLayers 3, Leaflet i ReactJS bibliotekama i licenciran je pod jednostavnom BSD licencom.",
         "about_p5-0": "Za više informacija posetite",
@@ -71,7 +71,7 @@
             "featureInfo": "Informacije o objektu",
             "featureInfoFormatLbl": "Format odziva informacija o objektima",
             "legenderror": "Legenda nije dostupna",
-            "editCustomFormat": "Izmijeni prilagođeni format",
+            "editCustomFormat": "Izmeni prilagođeni format",
             "exampleOfResponse": "Primer",
             "changedSettings": "Izmijenjene postavke",
             "changedSettingsAlert": "Zatvarate panel postavki bez da ste spremili izmene",
@@ -122,7 +122,7 @@
             "tooltipActivate": "Uđi u 3D prikaz"
         },
         "cookie":{
-            "info": "Ova stranica koristi kolačiće za pružanje boljeg korisničkog iskustva i funkcionalnosti. Postavke kolačića mogu se kontrolirati i prilagoditi u vašem web pregledniku.",
+            "info": "Ova stranica koristi kolačiće za pružanje boljeg korisničkog iskustva i funkcionalnosti. Postavke kolačića mogu se kontrolisati i prilagoditi u vašem web pregledaču.",
             "moreDetailsButton": "Više detalja",
             "leave": "Napusti",
             "accept": "Prihvati"
@@ -181,7 +181,7 @@
             "open": "Otvori",
             "shortDescription": "Analiza merenih vrednosti elektromagnetnog polja u Srbiji<br/><small>podaci su preuzeti sa <a href=\"https://data.gov.rs/sr/datasets/rezultati-kontinualnog-merenja-nivoa-elektrichnog-polja-na-lokatsijama-od-interesa/\">portala otvorenih podataka</a></small>",
             "forkMeOnGitHub": "Pristup platformi na GitHub-u",
-            "description": "MapStore je razvijen za jednostavno i intuitivno kreiranje, spremanje i deljenje karata i kombinacija podataka dobivenih odabirom sadržaja koji dolaze iz standardnih izvora kao što su Google Maps i OpenStreetMap ili putem servisa koje pružaju organizacije koristeći otvorene protokole kao što su OGC WMS, WFS, WMTS ili TMS itd.<br/>Posjetite <a href=\"https://mapstore.readthedocs.io/en/latest/\">početnu stranicu</a> za više informacija.",
+            "description": "MapStore je razvijen za jednostavno i intuitivno kreiranje, spremanje i deljenje karata i kombinacija podataka dobijenih odabirom sadržaja koji dolaze iz standardnih izvora kao što su Google Maps i OpenStreetMap ili putem servisa koje pružaju organizacije koristeći otvorene protokole kao što su OGC WMS, WFS, WMTS ili TMS itd.<br/>Posjetite <a href=\"https://mapstore.readthedocs.io/en/latest/\">početnu stranicu</a> za više informacija.",
             "Applications": "Aplikacije",
             "Examples": "Primeri",
             "LinkedinGroup": "Mapstore Linkedin grupa",
@@ -197,10 +197,10 @@
             },
             "examples":{
                 "viewer":{
-                    "html":"<h3>Preglednik</h3><p>Jednostavni preglednik</p>"
+                    "html":"<h3>Preglednik</h3><p>Jednostavni pregledač</p>"
                 },
                 "3dviewer":{
-                    "html":"<h3>3D Preglednik</h3><p>Jednostavni CesiumJS bazirani 3D preglednik</p>"
+                    "html":"<h3>3D Preglednik</h3><p>Jednostavni CesiumJS bazirani 3D pregledač</p>"
                 },
                 "manager":{
                     "html":"<h3>Menadžer</h3><p>Pregled karata</p>"
@@ -244,7 +244,7 @@
             "deleteMap":"Izbriši kartu",
             "deleteMapMessage": "Želite li zaista izbrisati ovu kartu?",
             "editMapMetadata":"Izmjena svojstava karte",
-            "mapTypes_combo": "Odaberi preglednik karte: ",
+            "mapTypes_combo": "Odaberi pregledač karte: ",
             "theme_combo": "Odaberi temu:",
             "maps_title": "Karte",
             "locales_combo": "Jezik:",
@@ -339,7 +339,7 @@
                 "error403": "Nemate dozvole za ažuriranje karte",
                 "error404": "Došlo je do pogreške prilikom stvaranja karte",
                 "error409": "Karta sa tim imenom već postoji",
-                "error500": "Interna greška poslužitelja. Provjerite prelazi li veličina konfiguracijske datoteke karte veličinu fiksnog ograničenja",
+                "error500": "Interna greška servera. Proverite prelazi li veličina konfiguracijske datoteke karte veličinu fiksnog ograničenja",
                 "errorDefault": "Mrežna greška"
             },
             "permissions": {
@@ -356,7 +356,7 @@
                 "save": "Sačuvaj",
                 "show": "Prikaži ploču sa detaljima",
                 "add": "Dodaj novi detalj",
-                "edit": "Izmijeni detalj",
+                "edit": "Izmeni detalj",
                 "rowTitle": "Ploča detalja",
                 "title": "Ploča detalja - {name}",
                 "undo": "Poništi uklanjanje",
@@ -372,7 +372,7 @@
                     "title": "Error loading map",
                     "notFound": "Karta nije pronađena",
                     "notAccessible": "Karta nije dostupna",
-                    "unknownError": "<p><small>Jedan od slijedećih razloga može biti uzrok:</small> <ul><li>nemate dozvole za pristup</li> <li>pokušavate pristupiti karti koja ne postoji</li> <li>karta je uklonjena</li> <li>the projection of the map is not configured</li></ul><p>",
+                    "unknownError": "<p><small>Jedan od sledećih razloga može biti uzrok:</small> <ul><li>nemate dozvole za pristup</li> <li>pokušavate pristupiti karti koja ne postoji</li> <li>karta je uklonjena</li> <li>the projection of the map is not configured</li></ul><p>",
                     "title" : "Map cannot be viewed"
                 }
             }
@@ -383,7 +383,7 @@
             "hideLegend": "Sakrij legendu"
         },
         "toc": {
-            "toggleLayerVisibility": "Izmijeni vidljivost sloja",
+            "toggleLayerVisibility": "Izmeni vidljivost sloja",
             "displayLegendAndTools": "Prikaži legendu i alate",
             "zoomToLayerExtent": "Prikaži puni opseg sloja",
             "addLayer": "Dodaj sloj",
@@ -404,9 +404,9 @@
             "statusIconClose": "Otvori grupu",
             "grabLayerIcon": "Zahvati i sortiraj sloj",
             "grabGroupIcon": "Zahvati i sortiraj grupu",
-            "toggleLayerVisibilityWarning": "Izmijeni vidljivost sloja, Upozorenje: sloj se nije učitao ispravno",
+            "toggleLayerVisibilityWarning": "Izmeni vidljivost sloja, Upozorenje: sloj se nije učitao ispravno",
             "createWidget": "Izradi widget za odabrani sloj",
-            "editLayerProperties": "Izmijeni svojstva sloja",
+            "editLayerProperties": "Izmeni svojstva sloja",
             "browseData": "Otvori atributnu tabelu",
             "removeLayer": "Ukloni sloj",
             "loadingerror": "Sloj se nije učitao ispravno ili nije dostupan",
@@ -478,7 +478,7 @@
             "paneltitle": "Štampa",
             "layout": "Raspored",
             "sheetsize": "Veličina lista:",
-            "legendoptions": "Postavke kazala",
+            "legendoptions": "Postavke prikaza",
             "submit": "Ispiši",
             "title": "Naslov",
             "titleplaceholder": "Unesi naslov...",
@@ -762,13 +762,13 @@
                 "header": "Pronađi u skupu podataka",
                 "dataset_header": "Skup podataka"
             },
-            "emptyfilter": "Nije postavljen filter. Pretraga bi mogla biti prekinuta ukoliko poslužitelj ne podržava parcijalni dohvat podataka.",
+            "emptyfilter": "Nije postavljen filter. Pretraga bi mogla biti prekinuta ukoliko server ne podržava parcijalni dohvat podataka.",
             "attributefilter":{
                 "add_condition": " Dodaj uvjet",
                 "delete": " Izbriši",
                 "add_group": " Dodaj grupu",
                 "group_label_a": "Odgovara",
-                "group_label_b": "od slijedećih uvjeta:",
+                "group_label_b": "od sledećih uslova:",
                 "combo_placeholder": "Atribut",
                 "text_placeholder": "Unesi tekst za pretragu",
                 "attribute_filter_header": "Filter atributa",
@@ -820,7 +820,7 @@
                     "cql":   "CQL"
                 },
                 "operations": {
-                    "intersects": "Presijeca",
+                    "intersects": "Preseca",
                     "bbox": "Granični okvir",
                     "contains": "Je sadržan",
                     "dwithin": "Udaljen od",
@@ -992,8 +992,8 @@
           "confirmDeleteGroup": "Želite li zaista izbrisati ovu grupu?"
         },
         "share":{
-            "title": "Podijeli",
-            "titlePanel": "Podijeli kartu",
+            "title": "Podeli",
+            "titlePanel": "Podeli kartu",
             "socialIntro": "Na svojoj omiljenoj društvenoj mreži",
             "directLinkTitle": "Putem izravne poveznice",
             "social": "Socijalna mreža",
@@ -1021,7 +1021,7 @@
             "layers": "Slojevi",
             "size": "Veličina",
             "notsupported": "Snimka nije podržana",
-            "taintedMessage": "Funkcionalnost spremanja snimke je ograničena zbog neke od sigurnosnih postavki preglednika. Pokušajte kliknuti desnim klikom na pregled i odaberite 'Sačuvaj sliku kao' (podržano u Firefox i Chrome)."
+            "taintedMessage": "Funkcionalnost spremanja snimke je ograničena zbog neke od sigurnosnih postavki pregledača. Pokušajte kliknuti desnim klikom na pregled i odaberite 'Sačuvaj sliku kao' (podržano u Firefox i Chrome)."
         },
         "shapefile": {
             "title": "Dodaj lokalnu datoteku",
@@ -1103,7 +1103,7 @@
                 "addCatalogService": "Servis je dodan ispravno",
                 "duplicatedServiceTitle": "Servis sa tim naslovom već postoji. Molim, promijenite naslov",
                 "serviceDeletedCorrectly": "Servis je izbrisan ispravno",
-                "errorServiceUrl": "Servis nije dostupan. Molim, provjerite uneseni url"
+                "errorServiceUrl": "Servis nije dostupan. Molim, proverite uneseni url"
             }
         },
         "uploader": {
@@ -1288,7 +1288,7 @@
                 "advancedFilter": "Napredna pretraga",
                 "quitEditMode": "Napusti editiranje",
                 "addNewFeatures": "Dodaj novi objekt",
-                "editFeature": "Izmijeni objekt",
+                "editFeature": "Izmeni objekt",
                 "drawGeom": "Nacrtaj objekt",
                 "stopDrawGeom": "Odustani od stvaranja geometrije",
                 "addGeom": "Dodaj geometriju postojećem objektu",
@@ -1364,7 +1364,7 @@
                 "noLegend": "Nema elemenata za prikaz u legendi",
                 "noLegendDescription": "Povezana karta nema slojeva za prikaz u legendi",
                 "nodatainviewport": "Nema podataka na trenutnom prikazu",
-                "timeoutExpired": "Servisu je potrebno previše vremena za odziv. Moguće je da je upit presložen ili je poslužitelj prezauzet",
+                "timeoutExpired": "Servisu je potrebno previše vremena za odziv. Moguće je da je upit presložen ili je server prezauzet",
                 "genericError": "Došlo je do greške prilikom dohvata podataka"
             },
             "builder": {
@@ -1404,7 +1404,7 @@
                     "noAttributesTitle": "Nema atributa za prikaz",
                     "noAttributesDescription": "Odabrani sloj nema atributa za prikaz. Molimo odaberite drugi widget ili sloj",
                     "noWidgetsAvailableTitle": "Nije moguće kreirati widget za odabrani sloj",
-                    "noWidgetsAvailableDescription": "<p><strong>Molimo pokušajte odabrati drugi sloj ili tip widgeta</strong></p><p>Poslužitelj nema na raspolaganju potrebne servise za sloj i odabrani tip widgeta</p><p>Mogući uzroci su: <ul><li>odabrani sloj je rasterski sloj</li><li>WFS servis nije dostupan</li><li>WPS proces <code>gs:aggregate</code> nije dostupan</li></ul></p>",
+                    "noWidgetsAvailableDescription": "<p><strong>Molimo pokušajte odabrati drugi sloj ili tip widgeta</strong></p><p>Server nema na raspolaganju potrebne servise za sloj i odabrani tip widgeta</p><p>Mogući uzroci su: <ul><li>odabrani sloj je rasterski sloj</li><li>WFS servis nije dostupan</li><li>WPS proces <code>gs:aggregate</code> nije dostupan</li></ul></p>",
                     "checkAtLeastOneAttribute": "Obavezan odabir barem jedne kolone",
                     "noMapAvailableForLegend": "Nema dostupnih karti",
                     "noMapAvailableForLegendDescription": "Potreban je barem jedan widget karte za kreiranje legende"
@@ -1533,7 +1533,7 @@
         "dashboard": {
             "loadingSpinner": "Učitavanje kontrolne ploče",
             "saveDialog": {
-                "title": "Izmijeni svojstva kontrolne ploče",
+                "title": "Izmeni svojstva kontrolne ploče",
                 "name": "Naziv",
                 "description": "Opis",
                 "namePlaceholder": "Unesi ime...",
@@ -1735,7 +1735,7 @@
             "menutitle": "Upravljanje GeoFence pravilima",
             "tooltip": {
                 "addT": "Dodaj pravilo",
-                "editT": "Izmijeni odabrano pravilo",
+                "editT": "Izmeni odabrano pravilo",
                 "addBeT": "Dodaj novo pravilo ispred odabranoga",
                 "addAfT": "Dodaj novo pravilo iza odabranoga",
                 "deleteT": "Ukloni odabrano pravilo",
@@ -1754,7 +1754,7 @@
             "cachemsg": "Jesti li sigurni da želite očostiti GeoFence predmemoriju?",
             "deltitle": "Izbriši pravilo",
             "delmsg": "Želite li zaista izbrisati ovo pravilo?",
-            "invalidForm": "Oblik je neispravan, provjerite vrijednosti polja",
+            "invalidForm": "Oblik je neispravan, proverite vrijednosti polja",
             "ip": "IP",
             "title": "Pravila pristupa",
             "role": "Rola",
@@ -1861,7 +1861,7 @@
                 "text": "Možete koristiti Mapstore2 komponente i pluginove kako bi izgradili vlastite aplikacije"
             },
             "introCesium": {
-                "title": "Upute za 3D prikaz",
+                "title": "Uputstvo za 3D prikaz",
                 "text": "Kliknite na dugme Dalje za početak tutorijala"
             },
             "cesium": {
@@ -1888,7 +1888,7 @@
                 "text": "Ovdje možete naći dugmad za približavanje i udaljavanje sadržaja karte"
             },
             "dashboardIntro": {
-                "title": "Upute za kontrolnu ploču",
+                "title": "Uputstvo za kontrolnu ploču",
                 "text": "Pregled mogućnosti kontrolne ploče"
             },
             "dashboardNav": {
@@ -1897,7 +1897,7 @@
             },
             "dashboardContainer": {
                 "title": "Kontrolna ploča",
-                "text": "<p>Kontrolna ploča u Mapstore2 daje skup podataka prikladno prikupljenih za prikaz zbirnih podataka u jedinstvenom prikazu. Geografski podaci prikazani na karti mogu se postaviti paralelno s povezanim atributnim tabelama, grafikonima i drugim, s ciljem povezivanja različitih vrsta informacija, s ciljem prikaza statističkih pojedinosti i tekstualnih opisa povezanih s određenim kontekstom.</p><p> Svi korisnici mogu vizualizirati i interaktivno raditi s objavljenim kontrolnim pločama, ali samo korisnici koji imaju dopuštenje za uređivanje mogu dodavati, organizirati, promijeniti veličinu ili brisati widgete unutar nadzorne ploče</p>"
+                "text": "<p>Kontrolna ploča u Mapstore2 daje skup podataka prikladno prikupljenih za prikaz zbirnih podataka u jedinstvenom prikazu. Geografski podaci prikazani na karti mogu se postaviti paralelno s povezanim atributnim tabelama, grafikonima i drugim, s ciljem povezivanja različitih vrsta informacija, s ciljem prikaza statističkih pojedinosti i tekstualnih opisa povezanih s određenim kontekstom.</p><p> Svi korisnici mogu vizuelizovati  i interaktivno raditi s objavljenim kontrolnim pločama, ali samo korisnici koji imaju dopuštenje za uređivanje mogu dodavati, organizovati, promeniti veličinu ili brisati widgete unutar nadzorne ploče</p>"
             },
             "dashboardAddWidget": {
                 "title": "Dodaj widget",
