@@ -563,7 +563,7 @@
             "changeSearchInputField": "Change the search tool",
             "addressSearch": "Traži po nazivu mesta",
             "coordinatesSearch": "Pretraživanje po koordinatama",
-            "searchservicesbutton": "Konfiguriraj servise pretraživanja",
+            "searchservicesbutton": "Konfiguriši servise pretraživanja",
             "configpaneltitle": "Kreiraj/izmeni servis pretraživanja",
             "serviceslistlabel": "Dostupni servisi",
             "overriedservice": "Nadjačaj zadane servise",
@@ -855,7 +855,7 @@
             "passwordChanged": "Lozinka je promenjena",
             "passwordError": "Greška prilikom izmene zaporke",
             "signIn": "Prijava",
-            "loginFail": "Pogreška prilikom prijave",
+            "loginFail": "Greška  prilikom prijave",
             "loginFailedStatusMessages": {
                 "usernamePwdInsert": "Molimo unesite korisničko ime i lozinku",
                 "usernamePwdIncorrect": "Korisničko ime ili lozinka nisu ispravni"
@@ -995,9 +995,9 @@
             "title": "Podeli",
             "titlePanel": "Podeli kartu",
             "socialIntro": "Na svojoj omiljenoj društvenoj mreži",
-            "directLinkTitle": "Putem izravne poveznice",
+            "directLinkTitle": "Putem direktnog linka",
             "social": "Socijalna mreža",
-            "direct": "Poveznica",
+            "direct": "Link",
             "code": "Ugradi",
             "embeddedLinkTitle": "Putem ugrađenoga koda",
             "forceDrawer": "Prikaži kontrolu sadržaja",
@@ -1026,7 +1026,7 @@
         "shapefile": {
             "title": "Dodaj lokalnu datoteku",
             "tooltip": "Dodaj lokalnu vektorsku datoteku.",
-            "placeholder": "Dovucite datoteku ovdje ili kliknite za odabir shapefileova za uvoz. (podržani formati: shapefile-ovi moraju biti sadržani u zip arhivi, KML/KMZ i GPX)",
+            "placeholder": "Dovucite datoteku ovde ili kliknite za odabir shapefileova za uvoz. (podržani formati: shapefile-ovi moraju biti sadržani u zip arhivi, KML/KMZ i GPX)",
             "defaultStyle": "Zadani stil",
             "zoom": "Prikaži kartu u opsegu vektorske datoteke",
             "error": {
@@ -1111,18 +1111,18 @@
             "type": "Tip",
             "lastModified": "Zadnji puta mijenjano",
             "filesize": "Veličina",
-            "beforeUpload": "Priprema za prijenos... ",
+            "beforeUpload": "Priprema za prenos... ",
             "uploadingFiles": "Prijenos datoteka...",
-            "dropfile": "dovuci ovdje datoteke za prijenos",
-            "dropfileImport": "dovuci ovdje datoteke za uključivanje u prijenos"
+            "dropfile": "dovuci ovde datoteke za prenos",
+            "dropfileImport": "dovuci ovde datoteke za uključivanje u prenos"
         },
         "importer": {
             "title": "Uvezi podatke",
             "imports": "Uvezi sesije",
             "importN": "Sesija {id}",
             "creatingImportProcess": " Kreiranje sesije uvoza... ",
-            "dropfile": "dovuci ovdje datoteke za kreiranje nove sesije uvoza",
-            "dropfileImport": "dovuci ovdje datoteke za uključivanje u uvoz",
+            "dropfile": "dovuci ovde datoteke za kreiranje nove sesije uvoza",
+            "dropfileImport": "dovuci ovde datoteke za uključivanje u uvoz",
             "process": "Sesija",
             "number": "#",
             "workspace": {
@@ -1391,7 +1391,7 @@
                     "titlePlaceholder": "Umetni naslov...",
                     "textPlaceholder": "Umetni tekst...",
                     "useThisMap": "Koristi ovu kartu",
-                    "configureMapOptions": "Konfiguriraj postavke karte",
+                    "configureMapOptions": "Konfiguriši postavke karte",
                     "preview": "Pregled",
                     "addLayer": "Dodaj sloj na kartu",
                     "useTheSelectedLayer": "Koristi odabrani sloj",
@@ -1830,7 +1830,7 @@
             },
             "burgerMenu": {
                 "title": "Izbornik opcija",
-                "text": "ovdje možete pronaći postavke i pomoć"
+                "text": "ovde možete pronaći postavke i pomoć"
             },
             "zoomInButton": {
                 "title": "Približi",
