@@ -120,7 +120,7 @@ module.exports = {
             key: 'dashboards',
             TitleComponent:
                 connect(dashboardsCountSelector)(({ count = ""}) => <Message msgId="resources.dashboards.title" msgParams={{ count: count + "" }} />),
-            position: 2,
+            position: 1,
             tool: true,
             priority: 1
         }

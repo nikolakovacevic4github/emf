@@ -8,10 +8,7 @@
           "https://nominatim.openstreetmap.org",
           "http://cloudsdi.geo-solutions.it",
           "https://gs-stable.geo-solutions.it/geoserver",
-          "https://gs-stable.geo-solutions.it:443/geoserver",
-          "http://emf.mslabs.in.rs/geoserver" ,
-          "http://emf.mslabs.in.rs:8082/geoserver" ,
-          "https://emf.mslabs.in.rs:443/geoserver"        
+          "https://gs-stable.geo-solutions.it:443/geoserver"     
         ]
     },
     "geoStoreUrl": "rest/geostore/",
@@ -501,10 +498,11 @@
                 "className": "navbar shadow navbar-home"
             }
         }, "ManagerMenu", "Login", "NavMenu", "Attribution", "ScrollTop", "Notifications"],
-        "maps": ["HomeDescription", "Fork", "MapSearch", "CreateNewMap", "FeaturedMaps", "ContentTabs",
+        "maps": ["HomeDescription", "MapSearch", "CreateNewMap", 
+          "ContentTabs",
 
           {
-            "name": "Maps",
+            "name": "Dashboards",
             "cfg": {
               "mapsOptions": {
                 "start": 0,
@@ -513,11 +511,11 @@
               "fluid": true
             }
           }, {
-            "name": "Dashboards",
+            "name": "Maps",
             "cfg": {
               "mapsOptions": {
                 "start": 0,
-                "limit": 12
+                "limit": 6
               },
               "fluid": true
             }
@@ -534,13 +532,13 @@
                 "containerPosition": "header",
                 "className": "navbar shadow navbar-home"
             }
-        }, "Login", "Language", "NavMenu", "Attribution", "Home", {
+        }, "Login", "NavMenu", "Attribution", "Home", {
           "name": "DashboardEditor",
           "cfg": {
              "catalog": {
-              "url": "https://gs-stable.geo-solutions.it/geoserver/csw",
+              "url": "http://emf.mslabs.in.rs:8082/geoserver/csw",
               "type": "csw",
-              "title": "GeoSolutions GeoServer CSW",
+              "title": "EMF GeoServer CSW",
               "autoload": true
             },
             "containerPosition": "columns"

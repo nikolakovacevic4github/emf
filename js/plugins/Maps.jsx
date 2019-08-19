@@ -136,9 +136,9 @@ module.exports = {
             key: 'maps',
             TitleComponent:
                 connect(mapsCountSelector)(({ count = "" }) => <Message msgId="resources.maps.title" msgParams={{ count: count + "" }} />),
-            position: 1,
+            position: 2,
             tool: true,
-            priority: 1
+            priority: 2
         }
     }),
     epics: {
